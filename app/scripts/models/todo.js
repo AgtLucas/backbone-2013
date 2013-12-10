@@ -13,5 +13,9 @@ define([
         }
     });
 
+    var myTodo = new Todo({
+      title: 'Check the console...'
+    });
+
     // return DemoModel;
 });
