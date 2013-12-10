@@ -176,7 +176,8 @@ module.exports = function (grunt) {
                 httpFontsPath: '/styles/fonts',
                 relativeAssets: false,
                 assetCacheBuster: false,
-                environment: 'production'
+                environment: 'production',
+                outputStyle: 'compressed'
             },
             dist: {
                 options: {
