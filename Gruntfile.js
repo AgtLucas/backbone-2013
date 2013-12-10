@@ -155,6 +155,18 @@ module.exports = function (grunt) {
                 }]
             }
         },
+
+        compass: {
+          dist: {
+            options: {
+              require: 'susy',
+              sassDir: 'app/styles',
+              cssDir: 'app/css',
+              environment: 'production'
+            }
+          }
+        },
+
         requirejs: {
             dist: {
                 // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
