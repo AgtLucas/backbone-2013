@@ -23,7 +23,15 @@
         <![endif]-->
 
 
+        <div id="todo">
 
+        </div>
+        <script type="text/template" id="item-template">
+            <div>
+                <input id="todo_complete" type="checkbox" <%= completed ? 'checked="checked"': '' %> />
+                <%= title %>
+            </div>
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
