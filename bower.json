@@ -8,7 +8,11 @@
     "backbone": "~1.0.0",
     "requirejs": "~2.1.5",
     "requirejs-text": "~2.0.5",
-    "modernizr": "~2.6.2"
+    "modernizr": "~2.6.2",
+    "backbone.marionette": "~1.5.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "resolutions": {
+    "backbone": "~1.1.0"
+  }
 }
